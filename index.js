@@ -23,10 +23,10 @@ function destructivelyPrependKitten(name) {
    return([name, ...kittens])
  }
 
- // function removeLastKitten() {
- //
- // }
- //
- // function removeFirstKitten() {
- //
- // }
+ function removeLastKitten() {
+   return(kittens.slice(1))
+ }
+ 
+ function removeFirstKitten() {
+   return(kittens.slice(1))
+ }
