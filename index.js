@@ -11,22 +11,22 @@ function destructivelyPrependKitten(name) {
    return(kittens.pop())
  }
 
- function destructivelyRemoveFirstKitten() {
-
- }
-
- function appendKitten(name) {
-
- }
-
- function prependKitten(name) {
-
- }
-
- function removeLastKitten() {
-
- }
-
- function removeFirstKitten() {
-
- }
+ // function destructivelyRemoveFirstKitten() {
+ //
+ // }
+ //
+ // function appendKitten(name) {
+ //
+ // }
+ //
+ // function prependKitten(name) {
+ //
+ // }
+ //
+ // function removeLastKitten() {
+ // 
+ // }
+ //
+ // function removeFirstKitten() {
+ //
+ // }
