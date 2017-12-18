@@ -15,14 +15,14 @@ function destructivelyPrependKitten(name) {
    return(kittens.shift())
  }
 
- // function appendKitten(name) {
- //
- // }
- //
- // function prependKitten(name) {
- //
- // }
- //
+ function appendKitten(name) {
+   return([...kittens, name])
+ }
+ 
+ function prependKitten(name) {
+   return([name, ...kittens])
+ }
+ 
  // function removeLastKitten() {
  //
  // }
