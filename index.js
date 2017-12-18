@@ -11,10 +11,10 @@ function destructivelyPrependKitten(name) {
    return(kittens.pop())
  }
 
- // function destructivelyRemoveFirstKitten() {
- //
- // }
- //
+ function destructivelyRemoveFirstKitten() {
+   return(kittens.shift())
+ }
+ 
  // function appendKitten(name) {
  //
  // }
